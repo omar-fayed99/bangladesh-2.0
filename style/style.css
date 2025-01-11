@@ -207,6 +207,7 @@
 .aljajeera{
   max-width: 1280px;
   margin: 160px 160px 0px 160px;
+  padding: 20px;
   align-content: center;
 }
 .aljajeera-title{
@@ -258,4 +259,78 @@
   flex-direction: column-reverse;
   margin-top: 20px;
   gap: 24px;
+}
+/* donate section */
+.donate{
+  max-width: 1280px;
+  max-height: 464px;
+  margin: 80px 160px 80px 160px;
+  gap: 32px;
+  
+}
+.donate-title{
+  font-size: 40px;
+  font-weight: bold;
+  color: #0E0E0E;
+  text-align: center;
+}
+.donate-dis{
+  font-size: 16px;
+  font-weight: regular;
+  color: #0e0e0e85;
+  width: 1280px;
+  height: 48px;
+  text-align: center;
+}
+.don-num{
+  display: flex;
+  justify-content: space-around;
+  width: 1071px;
+  height: 128px;
+  margin: 0 104px 182px 104px;
+  align-content: center;
+  
+}
+.dnumber{
+  width: 240px;
+  height: 128px;
+  padding: 40px 40px;
+  border: none;
+  border-radius: 16px;
+
+}
+.dh3{
+  font-size: 40px;
+  font-weight: bold;
+  color: #0E0E0E;
+  padding: 40px 40px;
+  text-align: center;
+  gap: 24px;
+  border-radius: 16px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.348);
+}
+input{
+  padding: auto;
+  width: 1032px;
+  height: 64px;
+  text-align: center;
+  margin-left: 124px;
+  margin-right: 124px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: regular;
+  color: #0e0e0e5f;
+}
+.donate-click{
+  padding: 13px 26px;
+  border-radius: 8px;
+  border: none;
+  background-color: #006A50;
+  color: white;
+  display: block;
+  margin: auto;
+  margin-bottom: 30px;
+}
+#dnumber2{
+  background-color: #C6E4D6;
 }
