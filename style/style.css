@@ -122,24 +122,27 @@
 .banner{
      display: flex;
      justify-content: space-between ;
-     margin: 120px 160px 0 140px ;
+     margin: 120px 160px 0 160px ;
      width: 1280PX;
      height: 560PX;
      border: none;
-     border-radius: 10px;
+     border-radius: 24px;
      background-color: #C6E4D6;
      padding: 80px 100px 80px 100px;
+     align-content: center;
 
 }
 .banner-content{
     max-width: 622px;
-    max-height: 201px;
+    max-height: 325px;
+    column-gap: 15px;
 }
 .banner-description{
     font-size: 24px;
     font-weight: 500;
-    color: #0E0E0E;
-    padding-bottom: 5px;
+    color: #0e0e0ea1;
+    margin: 20px;
+    padding-top: 100px;
     
 }
 .banner-mat{
@@ -158,3 +161,45 @@
     border-radius: 10px;
     color: white;
 }
+/* section card */
+.vision-of-future{
+  max-width: 1280px;
+  margin: 160px 160px 0px 160px;
+  align-content: center;
+}
+.section-title{
+  font-size: 40px;
+  font-weight: bold;
+  color: #0E0E0E;
+}
+.section-description{
+  font-size: 16px;
+  font-weight: regular;
+  color: #0e0e0e96;
+}
+.technology{
+  display: flex;
+  gap: 24px;
+}
+/* content section */
+.tech{
+  padding: 32px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.348);
+  border: none;
+  border-radius: 10px;
+}
+#tech1{background-color: #548ff575;}
+#tech2{background-color: #C6E4D6;}
+#tech3{background-color: #F7EBCF;}
+
+/* button section */
+.section-click{
+  padding: 11px 20px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+}
+#click1{background-color:#5490F5 ;}
+#click2{background-color:#09A15C ;}
+#click3{background-color:#FFC239 ;}
+/* sec card end */
